@@ -19,3 +19,7 @@ claude plugin install zk-skills@zk-skills
 ```
 
 Some skills refer to the author's global CLAUDE.md, which is not in this repository.
+
+## License
+
+MIT, see `LICENSE`. `skills/grilling` is copied from mattpocock/skills and keeps its own MIT license in `skills/grilling/LICENSE`.
