@@ -18,7 +18,7 @@ claude plugin marketplace add zk-hypersolid/zk-skills
 claude plugin install zk-skills@zk-skills
 ```
 
-Some skills refer to the author's global CLAUDE.md, which is not in this repository.
+`CLAUDE.md` is the author's global CLAUDE.md, which some skills refer to. Locally `~/.claude/CLAUDE.md` links to it. In Claude Code cloud sessions (`CLAUDE_CODE_REMOTE=true`), the plugin's SessionStart hook loads it from `main`; elsewhere the hook does nothing.
 
 ## License
 
