@@ -42,6 +42,7 @@
 - 资金路径、私钥 / 鉴权、不可逆的数据操作、生产发布：停下等 ZK 明确授权。删除或覆盖不在版本控制里的文件也算不可逆；备份到会被清理的临时目录不算可逆。合并即部署的仓库，合并就是生产发布。
 - 私钥、助记词、API key 不进聊天、commit、日志；放环境变量或仓库外权限 600 的文件。对外只给地址、公钥。
 - 可有可无的机制不加，脚手架不算交付。
+- 改 `~/src/zk-skills` 里的 skills 或 CLAUDE.md 后不用 commit 或 push，后台服务会检查后自动推送；只有它弹通知拦下时才处理。
 
 ## 工程
 - Fix a bug at its cause, reasoning from first principles and established best practice. Do not patch over the symptom. 收口时自问：真正的修复落地了吗？
