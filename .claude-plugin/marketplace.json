@@ -1,0 +1,8 @@
+{
+  "name": "zk-skills",
+  "description": "ZK's working skills for Claude Code.",
+  "owner": { "name": "zk-hypersolid" },
+  "plugins": [
+    { "name": "zk-skills", "source": "./", "description": "ZK's working skills: delegation briefs, convergence, document writing, root-cause redesign, grilling, and an independent Fable advisor." }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "zk-skills",
+  "description": "ZK's working skills: delegation briefs, convergence, document writing, root-cause redesign, grilling, and an independent Fable advisor.",
+  "author": { "name": "zk-hypersolid" },
+  "homepage": "https://github.com/zk-hypersolid/zk-skills",
+  "repository": "https://github.com/zk-hypersolid/zk-skills",
+  "keywords": ["agent-skills", "claude-code"]
+}
